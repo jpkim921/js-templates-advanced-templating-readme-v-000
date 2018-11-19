@@ -12,10 +12,10 @@
 // }
 
 // edited using a for loop for several (any) issues 
-function loadIssue() {
-  var template = Handlebars.compile(document.getElementById("issue-template").innerHTML);
-  for(var i=0;i<issues.length;i++) {
-    var result = template(issues[i]);  // issues is from issues.js
-    document.getElementsByTagName("main")[0].innerHTML += result;
-  }
-}
+// function loadIssue() {
+//   var template = Handlebars.compile(document.getElementById("issue-template").innerHTML);
+//   for(var i=0;i<issues.length;i++) {
+//     var result = template(issues[i]);  // issues is from issues.js
+//     document.getElementsByTagName("main")[0].innerHTML += result;
+//   }
+// }
