@@ -23,6 +23,7 @@
 // do the same as above but utilizing the each helper method provided by Handlebars
 function loadIssues() {
   var template = Handlebars.compile(document.getElementById("issue-template").innerHTML);
-  var result = template(issues);
+  
+  var result = template(issues);  // issues is from issues.js
   document.getElementsByTagName("main")[0].innerHTML += result;
 }
