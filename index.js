@@ -21,7 +21,7 @@
 // }
 
 // do the same as above but utilizing the each helper method provided by Handlebars
-function loadIssues() {
+function loadIssues() {  // changed the function name to loadIssues from loadIssue
   var template = Handlebars.compile(document.getElementById("issue-template").innerHTML);
   
   var result = template(issues);  // issues is from issues.js
